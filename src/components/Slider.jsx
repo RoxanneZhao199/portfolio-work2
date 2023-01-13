@@ -5,7 +5,7 @@ let count = 0;
 let sliderInterval;
 const Slider = () => {
   const images = [
-    "/images/video.gif",
+    // "/images/video.gif",
     "/images/furryfun1.png",
     "/images/furryfun2.png",
     "/images/furryfun3.png",
@@ -37,7 +37,7 @@ const Slider = () => {
   const startSlider = () => {
     sliderInterval = setInterval(() => {
       handleOnNextClick()
-    }, 3000);
+    }, 5000);
   }
 
   const pauseSlider = () => {
